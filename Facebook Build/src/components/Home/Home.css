@@ -1,0 +1,10 @@
+.facebook__body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top :5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

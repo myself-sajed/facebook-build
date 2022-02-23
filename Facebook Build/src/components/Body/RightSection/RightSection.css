@@ -1,0 +1,121 @@
+.right__avatar{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.right__section{
+    height: 85vh;
+    overflow: auto;
+    width: 350px;
+    position: fixed;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(111, 111, 194);
+}
+
+
+
+.right__section__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom : 10px;
+
+}
+
+
+.image__with__name:hover{
+    background-color: #d5d7d99e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
+
+.image__with__name__sponsor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 8px;
+}
+
+.image__with__name__sponsor>span{
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+
+}
+
+.image__with__name__sponsor:hover{
+    background-color: #d5d7d99e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
+
+
+.image__with__name>span{
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.image__with__name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 8px;
+
+}
+
+.image__with__name>img{
+    height: 28px;
+    width: 28px;
+}
+
+.image__with__name__sponsor>img{
+    height: 100px;
+    width: 100px;
+}
+
+.right__section__hr{
+    border: 0.0001px solid #cdcaca;
+    width: 95%;
+}
+
+
+
+#style-2::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+    background:transparent;
+}
+
+
+#style-2::-webkit-scrollbar
+{
+	width: 9px;
+    background: transparent;
+}
+
+.event__card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.event__card > img{
+    height:26px;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #bcc0c4;
+}
+
+.right__section__card{
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

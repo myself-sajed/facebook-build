@@ -1,0 +1,77 @@
+.left__avatar{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.left__section{
+    height: 85vh;
+    overflow: auto;
+    width: 350px;
+    position: fixed;
+    left:0;
+}
+
+.span__left__section{
+    margin-left:5px;
+}
+
+
+
+.left__section__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.image__with__name:hover{
+    background-color: #d5d7d99e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
+
+
+.image__with__name>span{
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.image__with__name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 8px;
+
+}
+
+.image__with__name>img{
+    height: 28px;
+    width: 28px;
+}
+
+.left__section__hr{
+    border: 0.0001px solid #cdcaca;
+    width: 95%;
+}
+
+
+
+#style-2::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+    background:transparent;
+}
+
+
+#style-2::-webkit-scrollbar
+{
+	width: 9px;
+    background: transparent;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #bcc0c4;
+}

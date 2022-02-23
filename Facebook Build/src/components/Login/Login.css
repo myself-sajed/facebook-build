@@ -1,0 +1,78 @@
+.login__logo> img{
+    height:106px;
+    width: 300px;
+}
+
+.login__logo>p{
+    color: #1c1e21;
+    font-size: 28px;
+    text-align: start;
+    font-family : Regular, Helvetica, Arial, sans-serif
+}
+
+.login__container{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 9rem 15rem;
+
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+}
+
+.login__form > Button{
+    font: Helvetica, Arial, sans-serif!important;
+}
+
+.login__logo{
+    display:flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items:flex-start;
+    width: 47rem;
+}
+
+.login__logo>p {
+    color: #1c1e21;
+    padding: 1px 28px;
+    margin-top: 1px;
+    font-size: 28px;
+    text-align: start;
+    font-family: Regular, Helvetica, Arial, sans-serif;
+}
+
+.login__card__content{
+    padding:10px !important;
+}
+
+.login__card__action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login__card__action>a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#1877f2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.login__card__action > Button:first-child{
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size:20px;
+    padding-bottom: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+

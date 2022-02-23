@@ -1,0 +1,99 @@
+.create__post__modal__div{
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    z-index:4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(8 8 9 / 76%);
+}
+
+.modal__body__content{
+    border-radius:15px!important;
+    position: fixed;
+    top: 15%;
+    left: 31%;
+    padding: 0px 10px;
+    width: 35%;
+}
+
+.modal__body__content>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.modal__body__content>div>p{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.create__post__modal__div__profile{
+    padding:5px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.create__post__modal__div__profile>span{
+    font-size: 1.2em;
+}
+
+.create__post__modal__div__input>textarea{
+    padding:10px 30px;
+    width: 98%;
+    outline: none;
+    border: none;
+    font-size:24px;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.bottom__input__modal{
+    padding:10px 30px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.bottom__input__modal>.MuiButtonBase-root:first-child>img{
+    height:35px;
+    cursor: pointer;
+}
+.bottom__input__modal>.MuiButtonBase-root:last-child>img{
+    height:29px;
+    cursor: pointer;
+}
+
+.add__to__post{
+    padding:5px 30px;
+    margin-bottom: 5px;
+
+}
+.add__to__post>div{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding: 0px 10px;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+.add__to__post>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__div__modal{
+    
+    margin:5px 30px!important;
+
+}
+
+.post__modal__button{
+    text-transform: capitalize!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    border-radius:7px!important;
+}

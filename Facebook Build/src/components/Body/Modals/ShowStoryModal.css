@@ -1,0 +1,79 @@
+.story__user__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.story__user__info>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start!important;
+    gap: 5px;
+    padding: 5px;
+}
+
+.progress {
+    margin: 10px auto;
+    width: 100%;
+    max-width: 500px;
+    height: 2px;
+  }
+  
+  .progress .progress__bar {
+    height: 100%;
+    width: 0%;
+    background-color: #072b45;
+    animation: fill-bar 5s infinite;
+  }
+  
+  @keyframes fill-bar {
+    from {width: 0%;}
+    to {width: 100%;}
+  }
+
+.modal__body__content__div{
+    border-radius:15px!important;
+    position: fixed;
+    top: 25%;
+    left: 33%;
+    padding: 0px 10px;
+    width: 32%;
+}
+
+.story__time{
+    width: 100%;
+    color: blue;
+    height: 4px;
+    border-radius: 5px;
+}
+
+.modal__body__content__div{
+    border-radius: 15px!important;
+    position: fixed;
+    top: 1%;
+    left: 33%;
+    padding: 0px 10px;
+    width: 32%;
+}
+
+.story__image__frame>img{
+    width: 100%;
+}
+
+.story__image__frame{
+    height: 85.5vh;
+}
+
+.story__caption{
+    position: absolute;
+    color: white;
+    bottom: 43px;
+    z-index: 1;
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.story__caption span{
+    color: white;
+}

@@ -1,0 +1,93 @@
+.navbar{
+    background-color: #fff;
+    display: flex;
+    z-index:10;
+    padding:2px 22px;
+    align-items: center;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    justify-content: space-between;
+}
+
+.navbar__left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.navbar__middle{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    
+}
+
+.active-tab{
+    border-bottom: 3px solid #1b74e4;
+
+}
+
+.active-tab>.navbar__middle__icons{
+    color: #1b74e4;
+}
+
+.navbar__middle>div>.navbar__middle__icons{
+    padding: 26px 40px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.navbar__middle>div>.navbar__middle__icons:hover{
+    background-color: #eef5fb;
+}
+
+.navbar__right{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+
+.navbar__avatar{
+    display: flex;
+    align-items: center;
+    padding: 4px 13px;
+    border-radius: 20px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.navbar__avatar>.MuiAvatar-root{
+    height: 32px;
+    width: 32px;
+}
+
+.navbar__avatar:hover{
+    background-color:#f0f2f5;
+}
+
+.navbar__search__wrapper{
+    display: flex;
+    align-items: center;
+  background-color: #f0f2f5;
+    border-radius: 40px;
+    padding : 7px 15px;
+    color: #606770;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+
+}
+
+.navbar__search__wrapper>input{
+    outline:none !important;
+    border:none !important;
+    font-size:15px;
+    background:transparent !important;
+}
+
+.navbar__right>.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color: #cdd1d66b;
+    color:black;
+}
+
+
+

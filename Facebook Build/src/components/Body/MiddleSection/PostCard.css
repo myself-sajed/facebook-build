@@ -1,0 +1,37 @@
+.like__comment__share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}    
+
+.like__comment__share>.single__icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 17px;
+    margin: 2px 0px;
+
+}
+
+
+
+.like__comment__share>.single__icon:hover{
+    cursor: pointer;
+    background-color: #d7d3d39e;
+    border-radius: 10px;
+}
+
+.main__icon__div{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.main__icon__div>img{
+    height: 17px;
+}
+

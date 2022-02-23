@@ -1,0 +1,30 @@
+.comment__section__of__post__header{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.input__wrapper__comment{
+
+    background-color:#e8e4e47a;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment__section__of__post{
+    padding: 10px;
+}
+
+.input__wrapper__comment>textarea{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    font-family: sans-serif;
+    
+}

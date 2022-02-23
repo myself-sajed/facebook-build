@@ -1,0 +1,40 @@
+.loader__wrapper{
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    z-index:4;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    background-color: rgb(17 15 15 / 84%);
+}
+
+.rotate {
+  animation: rotation 1s infinite linear;
+  position: fixed;
+  z-index:4;
+  top: 41%;
+  bottom: 0;
+  left: 48%;
+  right: 0;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.loader__wrapper p{
+  position: fixed;
+  z-index:4;
+  top: 55%;
+  bottom: 0;
+  left: 48%;
+  right: 0;
+  color: white;
+}
+
